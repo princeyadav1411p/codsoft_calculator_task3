@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+   
+}
+
+.page1{
+    height: 100vh;
+    width: 100%;
+   background-image: url("https://images.unsplash.com/photo-1709625862284-b8a82d339b99?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.calculator{
+
+    height: 63%;
+    width: 27%;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.589);
+}
+
+.button-class{
+    margin-top: 2%;
+    margin-left: 5%;
+    height: 60%;
+    width: 90%;
+    /* background-color:green;  */
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    
+}
+.first{
+    height: 30%;
+    width: 100%;
+    /* background-color:yellow; */
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 5%;
+}
+.sec{
+    height: 30%;
+    width: 100%;
+    /* background-color: aquamarine; */
+    display: flex;
+    align-items: center;
+    gap: 10px;  
+    margin-left: 5%; 
+}
+.third{
+    height: 30%;
+    width: 100%;
+    /* background-color:teal; */
+    display: flex;
+    align-items: center;
+    gap: 10px;    
+    margin-left: 5%;
+}
+.fourth{
+    height: 30%;
+    width: 100%;
+    /* background-color:teal; */
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 5%;    
+}
+.button{
+    padding: 10px 13px;
+    border-radius: 9px;
+    margin-left: 5%;
+    color: white;
+    font-size: 20px;
+    background-color:orange;
+    box-shadow: 7px 2px rgba(255, 68, 0, 0.635);
+}
+.button{
+    padding: 10px 13px;
+    border-radius: 9px;
+    margin-left: 5%;
+    color: white;
+    font-size: 20px;
+    background-color:palevioletred;
+    box-shadow: 7px 2px rgba(128, 128, 128, 0.527);
+}
+.button{
+    padding: 10px 13px;
+    border-radius: 9px;
+    margin-left: 5%;
+    color: white;
+    font-size: 20px;
+     background-color:palevioletred;
+     box-shadow: 7px 2px rgba(128, 128, 128, 0.527);
+}
+.button{
+    padding: 10px 13px;
+    border-radius: 9px;
+    margin-left: 5%;
+    color: white;
+    font-size: 20px;
+    box-shadow: 7px 2px rgba(128, 128, 128, 0.527);
+     background-color:palevioletred;
+}
+.screen input{
+    margin-top: 5%;
+    margin-left: 10%;
+    padding: 20px 50px;
+    border-radius: 10px; 
+}
